@@ -1,0 +1,305 @@
+﻿
+
+/*========================================================================================================*/
+/*                                          LAYOUT SECTION                                                */
+/*========================================================================================================*/
+
+/*========================================*/
+/*                 HEADER                 */
+/*========================================*/
+
+#header{
+    background-color: #5c755e;
+    margin: 10px; 
+    height: 90px; 
+    text-align: center; 
+
+    border-radius: 5px; 
+}
+
+/*========================================*/
+/*                 LOGO                   */
+/*========================================*/
+
+img{
+    display: block; 
+    max-width: 100%; 
+    max-height: 100%; 
+    float: left; 
+}
+
+/*========================================*/
+/*                  BODY                  */
+/*========================================*/
+
+/* Page Content Properties */
+
+.main{
+    background-color: #e5e4d7;
+    margin-left: 20%; 
+    margin-right: 20%; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+
+    border-radius: 5px; 
+    padding: 20px; 
+
+    font-size: 110%; 
+}
+
+/* Webpage Properties */
+
+body {  
+    background-color: #9c9f84;
+    background-image: url(../Images/background.jpg); 
+    margin: 0px;  
+    font-family: Verdana, Georgia, serif; 
+    font-size: 14px; 
+
+    border-color: aquamarine; 
+    border-width: 5px; 
+    border-style: solid; 
+}
+
+.image{
+    display: block; 
+    float: right; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 3px; 
+    background-color: silver; 
+    border-color: black; 
+    border-width: 2px; 
+    border-style: solid;
+}
+
+
+/*========================================*/
+/*                 FOOTER                 */
+/*========================================*/
+
+#footer {
+    background-color: #5c755e; 
+    margin: 10px; 
+    height: 60px; 
+    clear: both; 
+
+    border-radius: 5px; 
+    color: #efe5d0; 
+    text-align: center; 
+    padding: 15px; 
+    font-size: 90%; 
+}
+
+#footer ul{
+    padding: 5px; 
+    list-style-type: none;
+    text-align: center;  
+    margin: 10px;
+    border-radius: 5px; 
+}
+
+#footer ul li {
+    display: inline; 
+}
+
+#footer ul li a{
+    text-decoration: none; 
+    font-family: Arial; 
+    padding: .2em; 
+    color: #efe5d0; 
+    background-color: #000; 
+}
+
+#footer ul li a:hover{
+    color: #000; 
+    background-color: #fff; 
+}
+
+
+/*========================================================================================================*/
+/*                                            BODY SECTION                                                */
+/*========================================================================================================*/
+
+/*===============================================*/
+/*                    NAV BARS                   */
+/*===============================================*/
+
+/*========================================*/
+/*                 MENU BAR               */
+/*========================================*/
+
+#navbar ul{
+    padding: 5px; 
+    list-style-type: none;
+    text-align: center; 
+    background-color: #000; 
+    margin: 10px;
+    border-radius: 5px; 
+    height: 30px; 
+    font-size: 25px; 
+}
+
+    #navbar ul li {
+        display: inline; 
+    }
+
+    #navbar ul li a{
+        text-decoration: none; 
+        font-family: Arial; 
+        padding: .2em; 
+        color: #fff; 
+        background-color: #000; 
+}
+
+    #navbar ul li a:hover{
+        color: #000; 
+        background-color: #fff; 
+}
+
+
+/*========================================*/
+/*               SIDE BARS                */
+/*========================================*/
+
+.sideright{
+    background-color: #e5e4d7;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 0px; 
+    margin-bottom: 10px; 
+
+    border-radius: 5px; 
+    padding: 20px; 
+
+    font-size: 180%; 
+
+    float: right; 
+    width: 260px;    
+}
+
+
+
+.sideright ul li {
+    display: block;  
+    border-color: green;    
+ }
+
+.sideright ul li a{
+    text-decoration: none; 
+    font-family: Arial; 
+    padding: .1em; 
+    color: #fff; 
+    background-color: #000;  
+}
+
+.sideright ul li a:hover{
+    color: #000; 
+    background-color: #fff; 
+}
+
+
+
+.imagesidebar{
+    background-color: #e5e4d7;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 0px; 
+    margin-bottom: 10px; 
+
+    border-radius: 5px; 
+    padding: 20px; 
+
+    font-size: 140%; 
+
+    float: right; 
+    width: 260px; 
+
+    clear: right; 
+
+    opacity: 1.0; 
+ /* transition: Opacity Is ease-in-out; */ 
+}
+
+.imagesidebar:hover {
+    opacity: 0.4; 
+}
+
+
+/*========================================================================================================*/
+/*                                         HEADING SECTION                                                */
+/*========================================================================================================*/
+
+/*========================================*/
+/*                 HEADINGS               */
+/*========================================*/
+
+h1{
+    font-size: 160%; 
+    color: #ce282e; 
+}
+
+h2{
+    font-size: 160%; 
+    color: darkblue; 
+}
+
+h3{
+    font-size: 250%; 
+    text-align: center;
+    color: #e5e4d7; 
+    font-family: Centaur, 'Gill Sans', Arial, sans-serif; 
+    margin: 0px; 
+
+    position: relative; 
+    top: 50%; 
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%); 
+    transform: translateY(-50%); 
+}
+
+/*========================================*/
+/*               PARAGRAPHS               */
+/*========================================*/
+
+.b1{
+
+    color: black; 
+    font-size: 25px; 
+    line-height: 1.5em; 
+    background-color: #e5e4d7;
+
+    border-color: black;
+    border-width: 2px; 
+    border-style: ridge; 
+
+    margin: 20px; 
+    margin-top: 15px; 
+    padding: 20px;
+}
+
+p{
+/*  background-image: url(../Images/b3.jpg);  */ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffff00; 
+}
+
+/*========================================*/
+/*                 LINKS                  */
+/*========================================*/
+
+a:link{
+    color: blue; 
+}
+
+a:visited{
+    color: #8C8C9D;
+}
+
+a:hover{
+    color: #F15A51;
+}
+
+
+
+
